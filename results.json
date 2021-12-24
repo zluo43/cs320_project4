@@ -1,0 +1,60 @@
+{
+  "score": 65.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 7,
+      "possible": 10,
+      "log": [
+        "========================================",
+        "TEST has_pages (10)",
+        ""
+      ]
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    },
+    {
+      "test": "ab_test",
+      "points": 18,
+      "possible": 30,
+      "log": [
+        "========================================",
+        "TEST ab_test (30)",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        ""
+      ]
+    },
+    {
+      "test": "dashboard_examples",
+      "points": 0,
+      "possible": 20,
+      "log": [
+        "========================================",
+        "TEST dashboard_examples (20)",
+        "Expected three SVGs, but found 0 SVGs.",
+        ""
+      ]
+    }
+  ],
+  "lint": [],
+  "date": "03/20/2021",
+  "latency": 0.3511545658111572
+}
